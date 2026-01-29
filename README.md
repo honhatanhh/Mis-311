@@ -1,4 +1,4 @@
-# Mis-311
+# Mis-311 Part 1: Data Analysis and Insight
 Data Overview
 Source of Data: The dataset comes from the 10_Supermarket Sale.xlsx file, specifically the sales sheet. Each row represents a single customer transaction.
 Size of Dataset:
