@@ -39,12 +39,12 @@ Product_category:
 
  Missing values in the product_category column were not filled using the most frequent value, as this would ignore the logical relationship between products and their categories. Instead, product categories were inferred based on the corresponding product_name, ensuring that each product was assigned to its correct and consistent category. This approach preserves the semantic accuracy of the dataset and improves the reliability of further analysis.
 
-
 quantity:
  This is numerical → filled with the median quantity (11) to avoid distortion by extreme values.
+ 
 b. Duplicate Rows
-Duplicate rows found: 3
 
+Duplicate rows found: 3
 
 These rows were removed to avoid double-counting sales and inflating revenue or quantities.
 
