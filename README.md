@@ -34,6 +34,7 @@ Handling Missing Values
 Customer_type:
 
 These are categorical variables → filled with the mode (most frequent value).
+
 Product_category:
 
  Missing values in the product_category column were not filled using the most frequent value, as this would ignore the logical relationship between products and their categories. Instead, product categories were inferred based on the corresponding product_name, ensuring that each product was assigned to its correct and consistent category. This approach preserves the semantic accuracy of the dataset and improves the reliability of further analysis.
